@@ -35,7 +35,7 @@ public class AnswerPipeline : IAnswerPipeline
             Answer: answer.Answer,
             Sources: hits,
             UsedEmbeddings: usedEmbeddings,
-            UsedLlm: answer.Answer != null && answer.Answer.Length > 0 // مؤشر بسيط
+            UsedLlm: answer.Answer != null && answer.Answer.Length > 0
         );
     }
 }
